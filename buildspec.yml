@@ -2,11 +2,11 @@
 version: 0.2
 
 phases:
-  post_build:
+  build:
     commands:
       - echo Build completed on `date`
-      - mvn package
+      - mvn clean package
 artifacts:
   files:
-    -target/*.*
-  discard-paths: yes
+    -target/*.war
+  
