@@ -8,5 +8,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    -*.*
+    -target/*.*
   discard-paths: yes
