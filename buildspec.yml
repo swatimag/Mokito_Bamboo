@@ -7,5 +7,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/Mokito_Bamboo.war
+    - target/MockitoPOC.war
   discard-paths: yes
