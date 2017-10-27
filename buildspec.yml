@@ -8,5 +8,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/Mockito_Bamboo.zip
+    - Mockito_Bamboo.zip
   discard-paths: yes
