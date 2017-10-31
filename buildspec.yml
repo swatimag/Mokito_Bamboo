@@ -7,6 +7,5 @@ phases:
       - mvn cobertura:cobertura package
 artifacts:
   files:
-    - target/MockitoPOC.war
-    - target/site.cobertura/index.html
+    - target/*.*
   discard-paths: yes
