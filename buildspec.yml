@@ -4,8 +4,9 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package
+      - mvn cobertura:cobertura package
 artifacts:
   files:
     - target/MockitoPOC.war
+    - target/site.cobertura/index.html
   discard-paths: yes
