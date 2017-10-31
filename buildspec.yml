@@ -7,5 +7,5 @@ phases:
       - mvn cobertura:cobertura package
 artifacts:
   files:
-    - target/**/*
+    - target/**/*.xml
   discard-paths: yes
